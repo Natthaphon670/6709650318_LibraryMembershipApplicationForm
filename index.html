@@ -10,14 +10,34 @@
         Library Membership
     </header>
     <form>
-        <p>ชื่อ – นามสกุล ภาษาไทยและภาษาอังกฤษ</p>
-        <p>เพศ</p>
-        <p>รหัสนักศึกษา</p>
-        <p>คณะที่ศึกษา</p>
-        <p>ที่อยู่อีเมล (E-mail address)</p>
-        <p>วันเดือนปีเกิด</p>
-        <p>ประเภทของหนังสือที่สนใจ</p>
-        <p>ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</p>
+        <label for="ชื่อ">ชื่อ – นามสกุล ภาษาไทย</label><br><br>
+        <input type="text" id="=ชื่อ" name="ชื่อ"></input><br><br>
+
+        <label for="name">ชื่อ – นามสกุล ภาษาอังกฤษ</label><br><br>
+        <input type="text" id="=name" name="name"></input><br>
+
+        <label for="เพศ">เพศ</label><br>
+        <input type="radio" id="ชาย" name="เพศ" value="ชาย">
+        <label for="ชาย">ชาย</label>
+        <input type="radio" id="หญิง" name="เพศ" value="หญิง">
+        <label for="หญิง">หญิง</label>
+        <input type="radio" id="อื่นๆ" name="เพศ" value="อื่นๆ">
+        <label for="อื่นๆ">อื่นๆ</label><br><br>
+
+        <label>รหัสนักศึกษา</label><br><br>
+        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา"></input><br><br>
+
+        <label for="คณะ">คณะที่ศึกษา</label>
+
+        <label for="อีเมล">ที่อยู่อีเมล (E-mail address)</label>
+
+        <label for="วันเกิด">วันเดือนปีเกิด</label>
+
+        <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ</label>
+
+        <label for="information">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label>
+        <input type="checkbox" id="information" name="information"value="yes"><br><br>
+
     </form>
 </body>
 </html>
