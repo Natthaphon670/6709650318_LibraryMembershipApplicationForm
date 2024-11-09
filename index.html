@@ -25,18 +25,51 @@
         <label for="อื่นๆ">อื่นๆ</label><br><br>
 
         <label>รหัสนักศึกษา</label><br><br>
-        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา"></input><br><br>
+        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา" minlength="10" maxlength="10"></input><br><br>
 
-        <label for="คณะ">คณะที่ศึกษา</label>
+        <label for="คณะ">คณะที่ศึกษา</label><br><br>
+        <select name="คณะ" id="คณะ" >
+            <option value="">-- กรุณาเลือกคณะ --</option>
+            <option value="นิติศาสตร์">คณะนิติศาสตร์</option>
+            <option value="พาณิชยศาสตร์และการบัญชี">คณะพาณิชยศาสตร์และการบัญชี</option>
+            <option value="รัฐศาสตร์">คณะรัฐศาสตร์</option>
+            <option value="เศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+            <option value="สังคมสงเคราะห์ศาสตร์">คณะสังคมสงเคราะห์ศาสตร์</option>
+            <option value="ศิลปศาสตร์">คณะศิลปศาสตร์</option>
+            <option value="วารสารศาสตร์และสื่อสารมวลชน">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+            <option value="สังคมวิทยาและมานุษยวิทยา">คณะสังคมวิทยาและมานุษยวิทยา</option>
+            <option value="วิทยาศาสตร์และเทคโนโลยี">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+            <option value="วิศวกรรมศาสตร์">คณะวิศวกรรมศาสตร์</option>
+            <option value="แพทยศาสตร์">คณะแพทยศาสตร์</option>
+            <option value="สหเวชศาสตร์">คณะสหเวชศาสตร์</option>
+            <option value="ทันตแพทยศาสตร์">คณะทันตแพทยศาสตร์</option>
+            <option value="พยาบาลศาสตร์">คณะพยาบาลศาสตร์</option>
+            <option value="ศิลปกรรมศาสตร์">คณะศิลปกรรมศาสตร์</option>
+            <option value="สถาปัตยกรรมศาสตร์และการผังเมือง">คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+            <option value="สาธารณสุขศาสตร์">คณะสาธารณสุขศาสตร์</option>
+            <option value="เภสัชศาสตร์">คณะเภสัชศาสตร์</option>
+            <option value="วิทยาการเรียนรู้และศึกษาศาสตร์">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+            <option value="สถาบันเทคโนโลยีนานาชาติสิรินธร">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+            <option value="วิทยาลัยนวัตกรรม">วิทยาลัยนวัตกรรม</option>
+            <option value="วิทยาลัยสหวิทยาการ">วิทยาลัยสหวิทยาการ</option>
+            <option value="วิทยาลัยนานาชาติปรีดีพนมยงค์">วิทยาลัยนานาชาติปรีดีพนมยงค์</option>
+            <option value="วิทยาลัยโลกคดีศึกษา">วิทยาลัยโลกคดีศึกษา</option>
+            <option value="วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+            <option value="วิทยาลัยพัฒนศาสตร์ป๋วยอึ๊งภากรณ์">วิทยาลัยพัฒนศาสตร์ป๋วยอึ๊งภากรณ์</option>
+        </select><br><br>
 
-        <label for="อีเมล">ที่อยู่อีเมล (E-mail address)</label>
+        <label for="อีเมล">ที่อยู่อีเมล (E-mail address)</label><br><br>
+        <input type="email" id="=อีเมล" name="อีเมล"></input><br><br>
 
-        <label for="วันเกิด">วันเดือนปีเกิด</label>
+        <label for="วันเกิด">วันเดือนปีเกิด</label><br>
+        <input type="date" id="วันเกิด" name="วันเกิด"> <br><br>
 
         <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ</label>
 
-        <label for="information">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label>
+        <label for="information">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label><br>
         <input type="checkbox" id="information" name="information"value="yes"><br><br>
+
+        <input type="submit" value="Submit">
 
     </form>
 </body>
