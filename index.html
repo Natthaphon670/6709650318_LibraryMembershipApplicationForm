@@ -11,12 +11,12 @@
     </header>
     <form>
         <label for="ชื่อ">ชื่อ – นามสกุล ภาษาไทย</label><br><br>
-        <input type="text" id="=ชื่อ" name="ชื่อ"></input><br><br>
+        <input type="text" id="=ชื่อ" name="ชื่อ" required></input><br><br>
 
         <label for="name">ชื่อ – นามสกุล ภาษาอังกฤษ</label><br><br>
-        <input type="text" id="=name" name="name"></input><br>
+        <input type="text" id="=name" name="name" required></input><br><br>
 
-        <label for="เพศ">เพศ</label><br>
+        <label for="เพศ">เพศ</label><br><br>
         <input type="radio" id="ชาย" name="เพศ" value="ชาย">
         <label for="ชาย">ชาย</label>
         <input type="radio" id="หญิง" name="เพศ" value="หญิง">
@@ -25,10 +25,10 @@
         <label for="อื่นๆ">อื่นๆ</label><br><br>
 
         <label>รหัสนักศึกษา</label><br><br>
-        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา" minlength="10" maxlength="10"></input><br><br>
+        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา" minlength="10" maxlength="10" required></input><br><br>
 
         <label for="คณะ">คณะที่ศึกษา</label><br><br>
-        <select name="คณะ" id="คณะ" >
+        <select name="คณะ" id="คณะ" required >
             <option value="">-- กรุณาเลือกคณะ --</option>
             <option value="นิติศาสตร์">คณะนิติศาสตร์</option>
             <option value="พาณิชยศาสตร์และการบัญชี">คณะพาณิชยศาสตร์และการบัญชี</option>
@@ -59,12 +59,13 @@
         </select><br><br>
 
         <label for="อีเมล">ที่อยู่อีเมล (E-mail address)</label><br><br>
-        <input type="email" id="=อีเมล" name="อีเมล"></input><br><br>
+        <input type="email" id="=อีเมล" name="อีเมล" required></input><br><br>
 
-        <label for="วันเกิด">วันเดือนปีเกิด</label><br>
-        <input type="date" id="วันเกิด" name="วันเกิด"> <br><br>
+        <label for="วันเกิด">วันเดือนปีเกิด</label><br><br>
+        <input type="date" id="วันเกิด" name="วันเกิด"required> <br><br>
 
-        <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ</label>
+        <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ</label><br><br>
+        <input type="text" id="=หนังสือที่สนใจ" name="หนังสือที่สนใจ"></input><br><br>
 
         <label for="information">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label><br>
         <input type="checkbox" id="information" name="information"value="yes"><br><br>
