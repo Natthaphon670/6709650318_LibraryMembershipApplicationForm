@@ -23,13 +23,24 @@ form {
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (min-width: 768px) {
-    body {
-    background-color: rgb(55, 0, 184);
+.flex-container {
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 24px;
     }
+.flex-item {
+    padding: 10px;
+    flex: 25%;
+    }
+.flex-submit {
+    text-align: center;
+    align-content: center;
+    flex: 100%;
+    margin: 20px;
 }
-@media screen and (min-width: 1024px) {
-    body {
-    background-color: rgb(165, 41, 51);
+@media (max-width: 768px) {
+    .flex-container {
+    text-align: center;
+    flex-direction: column;
     }
 }

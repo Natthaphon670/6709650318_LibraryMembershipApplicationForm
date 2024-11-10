@@ -10,25 +10,25 @@
     <header>
         <h1>Library Membership</h1>
     </header>
-    <form>
-        <label for="ชื่อ">ชื่อ – นามสกุล ภาษาไทย</label><br><br>
-        <input type="text" id="ชื่อ" name="ชื่อ" required><br><br>
+    <form class="flex-container">
+        <div class="flex-item"><label for="ชื่อ">ชื่อ – นามสกุล ภาษาไทย</label><br><br>
+        <input type="text" id="ชื่อ" name="ชื่อ" required><br><br></div>
 
-        <label for="name">ชื่อ – นามสกุล ภาษาอังกฤษ</label><br><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <div class="flex-item"><label for="name">ชื่อ – นามสกุล ภาษาอังกฤษ</label><br><br>
+        <input type="text" id="name" name="name" required><br><br></div>
 
-        <label for="เพศ">เพศ</label><br><br>
+        <div class="flex-item"><label for="เพศ">เพศ</label><br><br>
         <input type="radio" id="ชาย" name="เพศ" value="ชาย">
         <label for="ชาย">ชาย</label>
         <input type="radio" id="หญิง" name="เพศ" value="หญิง">
         <label for="หญิง">หญิง</label>
         <input type="radio" id="อื่นๆ" name="เพศ" value="อื่นๆ">
-        <label for="อื่นๆ">อื่นๆ</label><br><br>
+        <label for="อื่นๆ">อื่นๆ</label><br><br></div>
 
-        <label for="รหัสนักศึกษา">รหัสนักศึกษา</label><br><br>
-        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา" minlength="10" maxlength="10" required><br><br>
+        <div class="flex-item"><label for="รหัสนักศึกษา">รหัสนักศึกษา</label><br><br>
+        <input type="password" id="รหัสนักศึกษา" name="รหัสนักศึกษา" minlength="10" maxlength="10" required><br><br></div>
 
-        <label for="คณะ">คณะที่ศึกษา</label><br><br>
+        <div class="flex-item"><label for="คณะ">คณะที่ศึกษา</label><br><br>
         <select name="คณะ" id="คณะ" required>
             <option value="">-- กรุณาเลือกคณะ --</option>
             <option value="นิติศาสตร์">คณะนิติศาสตร์</option>
@@ -57,21 +57,21 @@
             <option value="วิทยาลัยโลกคดีศึกษา">วิทยาลัยโลกคดีศึกษา</option>
             <option value="วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
             <option value="วิทยาลัยพัฒนศาสตร์ป๋วยอึ๊งภากรณ์">วิทยาลัยพัฒนศาสตร์ป๋วยอึ๊งภากรณ์</option>
-        </select><br><br>
+        </select><br><br></div>
 
-        <label for="อีเมล">ที่อยู่อีเมล (E-mail address)</label><br><br>
-        <input type="email" id="อีเมล" name="อีเมล" required><br><br>
+        <div class="flex-item"><label for="อีเมล">ที่อยู่อีเมล (E-mail address)</label><br><br>
+        <input type="email" id="อีเมล" name="อีเมล" required><br><br></div>
 
-        <label for="วันเกิด">วันเดือนปีเกิด</label><br><br>
-        <input type="date" id="วันเกิด" name="วันเกิด" required><br><br>
+        <div class="flex-item"><label for="วันเกิด">วันเดือนปีเกิด</label><br><br>
+        <input type="date" id="วันเกิด" name="วันเกิด" required><br><br></div>
 
-        <label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ</label><br><br>
-        <input type="text" id="หนังสือที่สนใจ" name="หนังสือที่สนใจ"><br><br>
+        <div class="flex-item"><label for="หนังสือที่สนใจ">ประเภทของหนังสือที่สนใจ</label><br><br>
+        <input type="text" id="หนังสือที่สนใจ" name="หนังสือที่สนใจ"></div><br><br>
 
-        <label for="information">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label>
-        <input type="checkbox" id="information" name="information" value="yes"><br><br>
-
-        <input type="submit" value="Submit">
+        <div class="flex-item"><label for="information">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label>
+        <input type="checkbox" id="information" name="information" value="yes"></div><br><br>
+   
+        <div class="flex-submit"></div><input type="submit" value="Submit"></div>
     </form>
 </body>
 </html>
