@@ -2,7 +2,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #bcfa6a;
+    background-color: #c3ffc1;
 }
 
 header {
@@ -10,6 +10,7 @@ header {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
@@ -20,4 +21,15 @@ form {
     background-color: #ecfde6;
     border-radius: 8px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+    background-color: rgb(55, 0, 184);
+    }
+}
+@media screen and (min-width: 1024px) {
+    body {
+    background-color: rgb(165, 41, 51);
+    }
 }
